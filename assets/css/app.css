@@ -36,8 +36,9 @@ body {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  height: 42px;
+  height: 65px;
   padding:2px;    
+  color: white;
 }
 .title {
   width: auto;
@@ -51,7 +52,7 @@ body {
 .navbtn {
   cursor: pointer;
   float:right;
-  padding: 6px 6px;
+  padding: 10px 10px;
   font-weight: bold;
   line-height: 18px;
   font-size: 14px;
@@ -59,6 +60,7 @@ body {
   text-shadow: 0px -1px #000;
   border-radius: 4px;
   background-color: #404040;
+  margin: 1rem 0.2rem
 }
 .navbtn-hover, .navbtn:active {
   color: #222;

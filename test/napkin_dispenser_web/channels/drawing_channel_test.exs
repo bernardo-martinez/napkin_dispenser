@@ -15,9 +15,9 @@ defmodule NapkinDispenserWeb.DrawingChannelTest do
     %{socket: socket}
   end
 
-  test "broadcasts stroke", %{socket: socket} do
-    push(socket, "stroke", %{"body" => "test"})
-    assert_broadcast "stroke", %{body: "test"}
+  test "broadcasts draw", %{socket: socket} do
+    push(socket, "draw", %{"body" => "test"})
+    assert_broadcast "draw", %{"body" => "test"}
   end
 
   test "broadcasts clear", %{socket: socket} do

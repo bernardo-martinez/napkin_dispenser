@@ -16,7 +16,8 @@ defmodule NapkinDispenser.Application do
       # Start a worker by calling: NapkinDispenser.Worker.start_link(arg)
       # {NapkinDispenser.Worker, arg},
       # Start to serve requests, typically the last entry
-      NapkinDispenserWeb.Endpoint
+      NapkinDispenserWeb.Endpoint,
+      NapkinDispenserWeb.Presence
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
